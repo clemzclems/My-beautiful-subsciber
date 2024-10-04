@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect with Me - Social Links</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f7fc;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .button {
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+        .youtube {
+            background-color: #FF0000;
+        }
+        .youtube:hover {
+            background-color: #cc0000;
+        }
+        .instagram {
+            background-color: #C13584;
+        }
+        .instagram:hover {
+            background-color: #a32e6b;
+        }
+        .facebook {
+            background-color: #4267B2;
+        }
+        .facebook:hover {
+            background-color: #365899;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Connect with Me!</h1>
+    <div class="button-container">
+        <button class="button youtube" onclick="subscribeYouTube()">Subscribe on YouTube</button>
+        <button class="button instagram" onclick="followInstagram()">Follow on Instagram</button>
+        <button class="button facebook" onclick="addFacebook()">Add on Facebook</button>
+    </div>
+
+    <script>
+        function subscribeYouTube() {
+            // Opens YouTube subscription link
+            window.open('https://www.youtube.com/channel/Elimianclement841', '_blank');
+        }
+
+        function followInstagram() {
+            // Opens Instagram follow link
+            window.open('https://www.instagram.com/clemzclems', '_blank');
+        }
+
+        function addFacebook() {
+            // Opens Facebook friend request link
+            window.open('https://www.facebook.com/clemzclemsgraphicsworks', '_blank');
+        }
+    </script>
+
+</body>
+</html>
